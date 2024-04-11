@@ -1,0 +1,54 @@
+body{
+    
+    display: flex;
+    min-height: 100vh; 
+    min-width: 100vw; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tudo{
+    display:flex;
+    flex-wrap:wrap;
+    /* justify-content:center;
+    align-items:center; */
+    background: rgb(0,0,0);
+    width:160px;
+    min-height:320px;
+    
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(40,121,9,1) 51%, rgba(0,0,0,1) 100%);
+    border-radius:8px;
+}
+
+h1{
+    flex-wrap: wrap;
+    min-width: 20px;
+    font-size: small;
+}
+h2{
+    display:flex;
+    justify-content: space-between;
+    /* align-items:center; */
+    flex-wrap: wrap;
+    font-size:small;
+
+}
+.botoes{
+    display:inline-block;
+    flex-direction: row;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.numbers{
+    
+    max-width: 130px;
+    max-height: 20px;
+    border-radius:5px;
+}
+
+.p{
+    font-size:small;
+    font-family:fantasy;
+    margin: 20px;
+    
+}

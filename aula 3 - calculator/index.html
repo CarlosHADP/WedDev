@@ -8,25 +8,39 @@
 </head>
 
 <body>
+    <div class="tudo">
+        <h1 class="h2">Calculadora HTML + Js + CSS</h1>
+        
+        <label for="number1">1:</label>
+        <input class="numbers" type="number" id="number1" placeholder="Digite n1:">
+        
+        <label for="number2">2:</label>
+        <input class="numbers" type="number" id="number2" placeholder="Digite n2:">
+        
 
-    <h1>Calculadora HTML + Js + CSS</h1>
+        
+        
+        <div>  
+            <button class="botoes" id="btnSoma" onclick="soma()">+</button>
+            <button class="botoes" id="btnSub" onclick="sub()">-</button>
+            <button class="botoes" id="btnMult" onclick="mult()">*</button>
+            <button class="botoes" id="btnDiv" onclick="div()">/</button>
+        </div>
 
-    <input type="number" id="number1">
-    <input type="number" id="number2">
-
-    <button id="btnClick" onclick="clicar()">Calcular</button>
+        
+        
+        <h2 >Resultado:</h2>
+        <div>
+            <p class='p' id="resultado"></p>
+            <p class='p' id="soma"></p>
+            <p class='p' id="sub"></p>
+            <p class='p' id="mult"></p>
+            <p class='p' id="div"></p>
+        </div>
+    </div> 
     
-
-    <button id="btnSoma" onclick="soma()">+</button>
     
     
-    <h2>Resultado:</h2>
-    <p id="resultado"> </p>
-
-    
-
-
-
 
     <script src="script.js"></script>
 </body>
