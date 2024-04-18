@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display:flex;
+    background-color: #1e2235;
+    color: white;
+    flex-flow: column wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.contaiter{
+    display:flex;
+    flex-flow: wrap;
+    width: 60%;
+    
+
+}

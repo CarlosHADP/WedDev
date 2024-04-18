@@ -35,3 +35,18 @@ function div(){
     resultadoDiv.innerText = dividir;
 
 }
+
+function clear(){
+    var clearS = document.getElementById("soma").value;
+    var clearSub = document.getElementById("sub").value;
+    var clearM = document.getElementById("mult").value;
+    var clearD = document.getElementById("div").value;
+
+    var limpo = " "
+
+
+    clearS.innerText = limpo;
+    clearSub.innerText = limpo;
+    clearM.innerText = limpo;
+    clearD.innerText = limpo;
+}
