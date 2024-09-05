@@ -6,7 +6,7 @@ function App() {
     <>
       <Header/>
 
-      <p className="text-blue-800 bg-gray-800 ml-8">Paragrafo</p>
+      <p className="text-blue-800 w-[350px] md:text-purple-500 bg-gray-800 ml-8">Paragrafo</p>
     </>
   )
 }
