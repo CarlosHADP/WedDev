@@ -5,7 +5,6 @@ function App() {
 
   return (
     <>
-     <h1>Home Page</h1>
      <Header/>
      <Outlet/>
      {/* Exibe o header e a lista de filmes disponível divididos por

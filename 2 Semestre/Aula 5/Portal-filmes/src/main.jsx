@@ -28,15 +28,15 @@ const Rotas = createBrowserRouter([
         element: <MovieListPage />
       },
       {
-        path: "/movies/movie",
+        path: "/movies/:id",
         element: <MovieDetailPage />
       },
       {
-        path: "/genre",
+        path: "/genre/:id",
         element: <MoviesByGenrePage />
       },
       {
-        path: "/genre/:id",
+        path: "/genre/",
         element: <GenreListPage />
       },
     ],
