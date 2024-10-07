@@ -7,7 +7,7 @@ export default function MovieDetailPage(){
 
     return(
         <>
-        <h1>Movie Detail Page Page</h1>
+        <h1>Movie Detail Page</h1>
         <p>O id do filme é {id}</p>
         </>
     )
